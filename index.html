@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta lang="es">
+
+		<link rel="icon" href="images/favicon.png">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<title> Carbon Based Lifeforms Fan Page</title>
+
+		<style>
+			@font-face {
+    			font-family: "Agency";
+    			src: url("fonts/Agency FB.ttf");
+			}
+
+			body{
+				padding-right: 10%;
+  				padding-left: 10%;
+  				padding-top: 5vh;
+				background-image: url("images/deepOcean.jpg");
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				
+			}
+
+  			.full{
+  				box-shadow: 0 0 3px 3px #000d08;
+  				border: 3px solid black;
+  			}
+
+  			section{
+  				background-color: #000d08;
+  				padding-right: 20%;
+  				padding-left: 20%;
+  				padding-top: 2%;
+  				padding-bottom: 2%;
+  			}
+
+  			.album-cover{
+  				box-shadow: 0 0 5px 5px black;
+  				position: relative;
+  				width: 100%; height: auto;
+
+  			}
+
+  			.horizontalSeparator{
+  				height: 5vh;
+
+  			}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="full">
+		<header> <img src="images/intro.jpg" style="width: 100%; height:auto;"> </header>
+
+		<section>
+			<div class="row">
+				<div class="col-xs-12 visible-xs visible-sm visible-md hidden-lg horizontalSeparator"> </div>
+
+
+				<div class="col-md-5 col-xs-12" id="cover-interloper">
+					<a href="interloper.html"> <img src="albumCovers/interloper.jpg" class="album-cover"></a>
+				</div>
+
+				<div class="col-md-2 visible-md visible-lg"></div>
+				<div class="col-xs-12 visible-xs visible-sm hidden-md hidden-lg horizontalSeparator"> </div>
+
+				<div class="col-md-5 col-xs-12" id="cover-garden">
+					<a href="endospere.html"> <img src="albumCovers/garden.jpg" class="album-cover"> </a>
+				</div>
+
+
+				<div class="col-xs-12 visible-xs visible-sm visible-md hidden-lg horizontalSeparator"> </div>
+			</div>
+		</section>
+		
+		<footer style="height: 3vh; background-color: black;"></footer>
+
+		</div>
+		<script src="bootstrap/js/jquery-2.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,167 @@
+			@font-face {
+    			font-family: "Agency";
+    			src: url("../fonts/Agency FB.ttf");
+			}
+
+			.texts{
+				font-family: Agency;
+				text-align: center;
+			}
+
+			#topTitle{
+				position: relative; 
+				height: 100%;
+				left: center; 
+				color:white; 
+				font-size: 3vh;
+			}
+
+			.interloperBody{
+				background-image: url("../images/deepOcean_Blur.jpg");
+			}
+
+			.endosporeBody{
+				background-image: url("../images/deepOcean2_Blur.jpg");
+			}
+
+			body{
+				margin: 0px;
+				
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			
+
+
+			body > nav{
+				height: 5vh;
+				width: 100%;
+				background-color: black;
+
+				box-shadow: 0 0 3px 3px black;
+
+			}
+
+			body > section{
+				padding-right: 10%;
+				padding-left: 10%;
+				padding-top: 5vh;
+			}
+
+			.interloperShadow{
+				box-shadow: 0 0 7px 7px #06302d;
+			}
+
+			.endosporeShadow{
+				box-shadow: 0 0 7px 7px #195299;
+			}
+
+			.songCover{			
+				width: auto;
+				height: 100%;
+			}
+
+			.songInfo{
+				text-align: center;
+				font-family: Agency;
+				font-size: 3vh;
+				position: relative; 
+				top: 30%;
+			}
+
+			.song{
+				height: 10vh;
+			}
+
+			iframe{
+				width: 100%; 
+				height: 80vh;
+			}
+
+			td{
+				background-color: white;
+			}
+
+			a { color: black;} 
+			a:hover {text-decoration:none;font-weight: bold;
+ ; color: black;}
+
+			.player{
+				width:100%;
+				position: relative;
+				top: 90%;
+
+			}
+
+			header > div{
+				
+				color: black;
+				font-family: Agency;
+				width: 30%;
+				position: relative;
+				left: 2%;
+				top: 75%;
+				text-shadow: black 1px 1px 7px;
+
+			}
+
+			.songTitle{
+				font-size: 5vh;
+			}
+
+			.songAlbum{
+				font-size: 3vh;
+			}
+
+			aside{
+				background-image: url("../images/list.png");
+				background-repeat: no-repeat;
+				background-size: 10%;				
+
+				position: relative;
+				padding-top: 10%;
+				padding-left: 12%;
+				padding-right: 8%;
+				padding-bottom: 10%;
+								
+				background-color: white;
+				border: 1px solid gray;
+				left: 88%;
+
+				-webkit-transition: left 0.7s;
+                -moz-transition: left 0.7s;
+                -o-transition: left 0.7s;
+                 transition: left 0.7s;
+
+                -webkit-transition-timing-function: ease-out;
+                -moz-transition-timing-function: ease-out;
+                -o-transition-timing-function: ease-out;
+                 transition-timing-function: ease-out;
+			}
+
+			aside:hover{
+				left: 0%;
+			}
+
+			aside  div{
+				font-family: Agency;
+				color: white;
+				font-size: 2vh;
+
+			}
+
+			th > div > h4{
+				font-family: Agency;
+				color: black;
+				font-size: 3vh;
+
+			}
+
+			.as{
+				position: fixed;
+				top: 8%;
+				right: 0;
+
+			}
